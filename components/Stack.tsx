@@ -3,7 +3,11 @@ import Image from "next/image";
 import { ContentType } from "../context/LangContext";
 import { useEffect, useRef } from "react";
 
-const stackItems = ['React-icon.svg', 'Next.js.svg', 'Node.js.svg', 'MongoDB.svg', 'Tailwind CSS.svg', 'TypeScript.svg', 'JavaScript.svg',  'github2.svg', 'Git.svg' ,  'Figma.svg' , 'Express.svg', 'Redis.svg',  'Python.svg' , 'SQL Developer.svg' , 'Vite.js.svg'  ];
+const stackItems = [
+  'react.svg', 'nextjs.svg', 'nodejs.svg', 'MongoDB.svg', 'tailwindcss.svg',
+  'TypeScript.svg', 'JavaScript.svg', 'github2.svg', 'Git.svg', 'Figma.svg',
+  'Express.svg', 'Redis.svg', 'Python.svg', 'sqldeveloper.svg', 'vitejs.svg'
+];
 
 export default function Stack({text} : {text : ContentType['Stack']})
 {
