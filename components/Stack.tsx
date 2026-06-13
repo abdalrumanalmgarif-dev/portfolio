@@ -38,7 +38,7 @@ export default function Stack({text} : {text : ContentType['Stack']})
                     <div key={index} 
                     ref={(el) => { itemRefs.current[index] = el }}
                     className="flex items-center justify-center p-4 transition-transform duration-300 hover:scale-110  rounded-lg ">
-                        <Image src={`/${item}`} alt={item.split('.')[0]} width={150} height={150} className="w-[70px] h-[70px] md:w-[150px] md:h-[150px]" />
+                        <img src={`/${item}`} alt={item.split('.')[0]} width={150} height={150} className="w-[70px] h-[70px] md:w-[150px] md:h-[150px]" />
                     </div>
                 ))}
             </div>
