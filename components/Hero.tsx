@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ContentType } from "../context/LangContext";
-import Me from '@/public/me.jpg';
+import Me from '../public/me.jpg';
 export default function Hero({text} : {text : ContentType['Hero']})
 {
     return(
