@@ -1,0 +1,35 @@
+'use client';
+
+import { useContext , createContext , useState } from "react";
+
+type Theme = 'light' | 'dark';
+
+type ThemeContextType = {
+    theme : Theme ;
+    toggleTheme : () => void ;
+}
+
+const ThemeContext = createContext<ThemeContextType | null >(null);
+
+export function ThemeProvider({children} : {children : React.ReactNode})
+{
+    const [theme , setTheme] = useState<Theme>('light');
+
+    function toggleTheme()
+    {
+        setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+    }
+
+    return(
+        <ThemeContext.Provider value={{theme , toggleTheme}}>
+            {children}
+        </ThemeContext.Provider>
+    );
+}
+
+export function useTheme()
+{
+    const context = useContext(ThemeContext);
+    if(!context) throw new Error('useTheme should only be used within its wrapper');
+    return context;
+}

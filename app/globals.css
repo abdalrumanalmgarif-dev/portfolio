@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #ffffff;
+  --bg-card: #f8fafc;
+  --text-primary: #0f172a;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #9d9ede;
+}
+
+.dark {
+  --bg: #0f172a;
+  --bg-card: #1e293b;
+  --text-primary: #f8fafc;
+  --text-muted: #94a3b8;
+  --border: #334155;
+  --accent: #818cf8;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  transition: background 0.5s ease;
+}
+
+.page-wrapper.light {
+  background: linear-gradient(
+    160deg,
+    #fafafa 0%,
+    #f0f0f5 50%,
+    #fafafa 100%
+  ) !important;
+}
+
+.page-wrapper.dark {
+  background: linear-gradient(
+    160deg,
+    #0E0E0E 0%,
+    #181818 60%,
+    #1c1c1c 100%
+  ) !important;
+}
