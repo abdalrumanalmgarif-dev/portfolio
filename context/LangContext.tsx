@@ -9,7 +9,7 @@ const content = {
         }, 
         Hero :{
             Hello : "Hello, I'm Abdalruhman",
-            intro : "I'm A  Full-Stack Developer",
+            intro : "Full-Stack Developer & Problem Solver",
             sec1 : "About Me",
             sec2 : "My Stack",
             sec3 : "Contact Me"
@@ -17,14 +17,14 @@ const content = {
         About : {
                 title : "About Me",
                 smallTitle : "Who am I ?",
-                description : "I'm a passionate web developer with experience in building dynamic and responsive websites. I specialize in both frontend and backend development, utilizing technologies such as React, Node.js, and MongoDB to create seamless user experiences."
+                description : "I'm a full-stack developer who enjoys turning complex problems into clean, scalable solutions. With hands-on experience across the frontend and backend — from crafting responsive UIs with React to building robust APIs with Node.js and managing data with PostgreSQL — I focus on writing code that's both maintainable and user-centred."
                 },
         Stack : {
             title : "My Stack",
                  },
         Contact : {
-            title : "LET'S CONTACT",
-            caption : "Feel free to reach out to me for any inquiries or collaborations. I'm always open to discussing new projects and opportunities.",
+            title : "Let's Work Together",
+            caption : "Have a project in mind or just want to say hello? My inbox is always open — whether it's a collaboration, a job opportunity, or simply a chat.",
             namePlaceholder : "Your Name",
             emailPlaceholder : "Your Email",
             emailExample : "you@example.com",
@@ -38,22 +38,22 @@ const content = {
             cta1 : 'تواصل الأن'
         } , Hero :{
             Hello : "مرحبا أنا عبدالرحمن",
-            intro : "أنا مطور ويب متحمس",
+            intro : "مطوّر ويب متكامل · أحوّل الأفكار إلى حلول",
             sec1 : "عني",
-            sec2 : "الستاك الخاص بي",
+            sec2 : "تقنياتي  ",
             sec3 : "تواصل الأن"
         },
         About : {
             title : "عني",
             smallTitle : "من أنا ؟",
-            description : "أنا مطور ويب شغوف ولدي خبرة في بناء مواقع ديناميكية ومتجاوبة. أتخصص في تطوير الواجهة الأمامية والخلفية، باستخدام تقنيات مثل React و Node.js و MongoDB لإنشاء تجارب مستخدم سلسة."
+            description : " مطوّر ويب متكامل أستمتع بتحويل المشكلات المعقدة إلى حلول برمجية نظيفة وقابلة للتوسع. أعمل على الواجهة الأمامية بتصميم واجهات متجاوبة باستخدام React، وعلى الخلفية ببناء APIs قوية مع Node.js وإدارة قواعد البيانات بـ PostgreSQL — مع تركيز دائم على جودة الكود وتجربة المستخدم."
         } , 
         Stack : {
-            title : "الستاك الخاص بي",
+            title : "تقنياتي",
         },
         Contact : {
-            title : "تواصل معي",
-            caption : "لا تتردد في التواصل معي لأي استفسارات أو تعاون. أنا دائمًا مفتوح لمناقشة مشاريع وفرص جديدة.",
+            title : "هل لديك فكرة؟ لنتحدث",
+            caption : "سواء كان لديك مشروع في ذهنك، فرصة عمل، أو مجرد رغبة في التواصل — بريدي الإلكتروني مفتوح دائماً.",
             namePlaceholder : "اسمك",
             emailPlaceholder : "بريدك الإلكتروني",
             emailExample : "you@example.com",

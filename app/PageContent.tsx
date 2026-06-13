@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Stack from "@/components/Stack";
 import Contact from "@/components/Contact";
+import Foot from "@/components/Foot";
 import { useTheme } from "@/context/ThemeContext";
 import { useLanguage } from "@/context/LangContext";
 
@@ -19,6 +20,7 @@ export default function PageContent()
         <About text={t.About} />
         <Stack text={t.Stack} />
         <Contact text={t.Contact} />
+        <Foot />
         </div>
     );
 }
