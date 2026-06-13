@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ContentType } from "../context/LangContext";
-import Me from '../public/me.jpg';
+
 export default function Hero({text} : {text : ContentType['Hero']})
 {
     return(
@@ -12,7 +12,7 @@ export default function Hero({text} : {text : ContentType['Hero']})
                         {/* counter-rotate the image to stay straight */}
                         <div className="relative w-full h-full -rotate-6 scale-125">
                             <Image
-                                src={Me}
+                                src="/me.jpg"
                                 alt="Hero Image"
                                 fill
                                 priority
